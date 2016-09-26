@@ -19,5 +19,6 @@ Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS W
 First clone it on your server by executing: <BR>
 git clone https://github.com/nemke82/nunus
 
-Next type: bash nunus.sh
+Next type: bash nunus.sh <BR>
+
 Help will be prompted, repeat command with desired command.
