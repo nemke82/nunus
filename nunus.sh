@@ -21,7 +21,7 @@ function Stress-test-tool(){
     if [[ "$param1" == "siege" ]];then
     echo "Checking if siege tool is installed".
     elif [ ! -f /usr/local/bin/siege ];then
-    git close https://github.com/JoeDog/siege.git &&
+    git clone https://github.com/JoeDog/siege.git &&
     cd siege* &&
     ./configure --with-ssl=/usr/lib/openssl
     make &&
